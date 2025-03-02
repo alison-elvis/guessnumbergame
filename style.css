@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  button {
+    margin-top: 20px;
+  }
+}
