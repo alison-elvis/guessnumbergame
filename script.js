@@ -11,8 +11,8 @@ document.querySelector("form").addEventListener("submit", (e) => {
 
   const feedbackMessages = {
     correct: { message: "Parabéns!", color: "green" },
-    low: { message: `Muito baixo! Tente novamente. Ainda resta(m) ${attempts} tentativa(s).`, color: "red" },
-    high: { message: `Muito alto! Tente novamente. Ainda resta(m) ${attempts} tentativa(s).`, color: "red" },
+    low: { message: `O número é maior! Tente novamente. Ainda resta(m) ${attempts} tentativa(s).`, color: "red" },
+    high: { message: `O número é menor! Tente novamente. Ainda resta(m) ${attempts} tentativa(s).`, color: "red" },
     gameOver: { message: `Fim de jogo! O número correto era ${randomNumber}`, color: "red" },
   };
 
